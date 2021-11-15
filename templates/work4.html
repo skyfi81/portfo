@@ -47,11 +47,10 @@
 
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
             <li><a href="./index.html" title="" class="active">001</a></li>
-            <li><a href="./index.html" title="">002</a></li>
-            <li><a href="./index.html" title="">003</a></li>
-            <li><a href="./index.html" title="">004</a></li>
-            <li><a href="./index.html" title="">005</a></li>
-            <li><a href="./index.html" title="">006</a></li>
+            <li><a href="./index.html" title="" class="active">002</a></li>
+            <li><a href="./index.html" title="" class="active">003</a></li>
+            <li><a href="./index.html" title="" class="active">004</a></li>
+            <li><a href="./index.html" title="" class="active">005</a></li>
           </ul>
 
 
@@ -66,20 +65,23 @@
         <img src="./static/assets/images/work001-01.jpg" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2">001 : Tech Mahindra</h1>
+            <h1 class="h2">004 : Stratus10</h1>
           </div>
-          <p>Creating and troubleshooting various IAM Policies, generally in Terraform /// 
-AWS Network connectivity troubleshooting for Apps trying to chat across accounts and other various support tasks /// 
-Various Cloud DevOps tasks focused on the AWS Cloud platform security space /// 
-Scripting assignments in Python when required</p>
+          <p>Utilized CodePipeline and Lambda to automate the deployment of server changes to an Auto Scaling Group so scaling out would use the updated server AMI
+/// Setup Systems Manager in GovCloud to manage collection of Ubuntu, CentOS, and Windows servers by manually installing SSM Agent to track CloudWatch Metrics and use Patch Manager to automate patches
+/// Created Staging Web Server for four websites and utilized Jenkins to automate the push from dev>staging>production
+/// Utilized ECS to launch a cluster with Docker from repository in ECR in order to split admin functions away from an EKS cluster to cut down on latency.  Connected ECS instance to shared EFS and RDS, created ALB, adjusted CloudFront to point /wp-admin/* to ALB
+/// Launched 15 Windows servers and joined them to the Active Directory Domain server
+/// Wrote CloudFormation template (YAML) to launch a Linux server, Launch Configuration, Auto Scaling Group, Security Group, and AWS Backup Rule into an existing VPC to connect to a RedShift Database and Bastion Host
+/// Installed Monit software on clients LAMP web server to monitor/restart Apache and MySQL if programs fail.  Created Lambda Function (python) to create AMI of instance (cleanup old AMIs/snapshots) every 6 hours.  Created another Lambda Function to create a Launch Configuration every 6 hours with most recent AMI (cleanup old LCs) and update the ASG with the new LC
+/// Created Bash Script that uses AWS CLI commands to return a report of desired metrics from CloudWatch and CloudTrail</p>
 
           <blockquote>
-            <p>SENIOR DEVOPS ENGINEER</p>
+            <p>AWS CLOUD ENGINEER</p>
             <!-- <small class="pull-right">Irina Martin</small> -->
           </blockquote>
         </div>
       </div>
-
 
       
       
